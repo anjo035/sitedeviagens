@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Playpen+Sans:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playpen+Sans:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 .headerclass{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(49, 93, 129);
-    padding: 20px;
+    background-color: #1F2937;
+    padding: 30px;
+    
+    
 }
 .logoimg{
     max-width: 100px;
@@ -18,7 +30,81 @@
 }
 .div1{
     display: flex;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playpen Sans', cursive;
     gap: 15px;
     font-size: 30px;
+    
+}
+.buttons{
+    background-color: rgb(204, 238, 238);
+    color: black;
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-family: 'Playpen Sans', cursive;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 70px;
+    gap: 60px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Playpen Sans', cursive;
+    
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.img1{
+    max-width: 300px;
+}
+
+.section2{
+    text-align: center;
+    padding: 30px;
+}
+.img3{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img2{
+    display: flex;
+    max-width: 300px;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.section3{
+    background-color: rgb(224, 217, 217);
+    padding: 100px;
+
+}
+.section4{
+    background-color: rgb(12, 11, 11) ;
+    color: rgb(172, 86, 86);
+    padding: 60px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.footer{
+    background-color: rgb(224, 217, 217);
+    text-align: center;
+    padding: 36px;
 }
